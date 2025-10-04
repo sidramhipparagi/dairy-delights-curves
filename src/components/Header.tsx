@@ -1,5 +1,6 @@
 import { ShoppingCart, Facebook, Instagram, Youtube, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { getAssetPath } from "@/lib/assets";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img 
-              src="/logo.png" 
+              src={getAssetPath("logo.png")} 
               alt="Always Fresh Supermarket Logo" 
               className="h-16 w-auto object-contain"
             />

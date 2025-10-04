@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { getAssetPath } from "@/lib/assets";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           {/* About */}
           <div>
             <img 
-              src="/logo.png" 
+              src={getAssetPath("logo.png")} 
               alt="Always Fresh Supermarket Logo" 
               className="h-12 w-auto object-contain mb-4 brightness-0 invert"
             />
