@@ -42,6 +42,21 @@ const Index = () => {
 
       {/* Promo Banner */}
       <section className="py-16 bg-primary text-primary-foreground relative overflow-hidden">
+        {/* Wavy top border */}
+        <div className="absolute top-0 left-0 right-0 overflow-hidden leading-none">
+          <svg
+            className="relative block w-full"
+            style={{ height: "40px" }}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 40"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,20 Q30,0 60,20 T120,20 T180,20 T240,20 T300,20 T360,20 T420,20 T480,20 T540,20 T600,20 T660,20 T720,20 T780,20 T840,20 T900,20 T960,20 T1020,20 T1080,20 T1140,20 T1200,20 L1200,0 L0,0 Z"
+              fill="hsl(var(--background))"
+            />
+          </svg>
+        </div>
         <div className="absolute inset-0 opacity-10">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
             <defs>

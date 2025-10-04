@@ -1,4 +1,4 @@
-import { ShoppingCart, Facebook, Instagram, Youtube, Mail } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getAssetPath } from "@/lib/assets";
 
@@ -36,23 +36,11 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Social icons and cart */}
-          <div className="flex items-center gap-4">
-            <a href="#" className="w-8 h-8 rounded-full bg-primary-foreground/20 hover:bg-primary-foreground/30 transition-colors flex items-center justify-center">
-              <Facebook size={16} />
-            </a>
-            <a href="#" className="w-8 h-8 rounded-full bg-primary-foreground/20 hover:bg-primary-foreground/30 transition-colors flex items-center justify-center">
-              <Instagram size={16} />
-            </a>
-            <a href="#" className="w-8 h-8 rounded-full bg-primary-foreground/20 hover:bg-primary-foreground/30 transition-colors flex items-center justify-center">
-              <Youtube size={16} />
-            </a>
-            <a href="#" className="w-8 h-8 rounded-full bg-primary-foreground/20 hover:bg-primary-foreground/30 transition-colors flex items-center justify-center">
-              <Mail size={16} />
-            </a>
-            <Button variant="ghost" size="icon" className="ml-2 hover:bg-primary-foreground/20">
-              <ShoppingCart size={20} />
-            </Button>
+          {/* Shopping cart */}
+          <div className="flex items-center">
+            <button className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity">
+              <ShoppingCart size={30} strokeWidth={2.0} />
+            </button>
           </div>
         </div>
       </div>
