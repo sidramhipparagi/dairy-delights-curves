@@ -9,11 +9,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-16 h-16 rounded-full border-2 border-primary-foreground flex items-center justify-center">
-              <span className="text-xs font-bold text-center leading-tight">
-                ALWAYS<br />FRESH<br />SUPERMARKET
-              </span>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Always Fresh Supermarket Logo" 
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           {/* Navigation */}

@@ -7,7 +7,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Always Fresh</h3>
+            <img 
+              src="/logo.png" 
+              alt="Always Fresh Supermarket Logo" 
+              className="h-12 w-auto object-contain mb-4 brightness-0 invert"
+            />
             <p className="text-sm text-background/80 mb-4">
               Your trusted source for fresh dairy products and vegetables. Quality delivered to your doorstep in 20 minutes.
             </p>
