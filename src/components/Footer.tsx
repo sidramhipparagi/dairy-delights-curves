@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-background/20 text-center text-sm text-background/60">
-          <p>&copy; 2024 Always Fresh Supermarket. All rights reserved.</p>
+          <p>&copy; 2025 Arihant Food. All rights reserved.</p>
         </div>
       </div>
     </footer>

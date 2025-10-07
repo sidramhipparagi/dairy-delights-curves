@@ -7,7 +7,8 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Set base to '/' for custom domains, or to your repo name for github.io URLs
   // e.g., base: '/your-repo-name/' for https://username.github.io/your-repo-name/
-  base: mode === 'production' ? '/dairy-delights-curves/' : '/',
+  // Using '/' for custom domain arihantfood.in
+  base: '/',
   server: {
     host: "::",
     port: 8080,
