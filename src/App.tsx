@@ -9,8 +9,8 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => {
-  // Use the repository name as basename for GitHub Pages
-  const basename = import.meta.env.MODE === 'production' ? '/dairy-delights-curves' : '';
+  // Use root basename for custom domain deployment
+  const basename = import.meta.env.MODE === 'production' ? '/' : '';
   
   return (
     <QueryClientProvider client={queryClient}>
