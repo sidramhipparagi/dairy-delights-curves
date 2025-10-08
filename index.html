@@ -19,6 +19,8 @@
     
     <!-- Single Page Apps for GitHub Pages -->
     <script>
+      // Start Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -29,6 +31,16 @@
           );
         }
       }(window.location))
+      // End Single Page Apps for GitHub Pages
+      
+      // Restore redirect from 404.html
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
     </script>
   </head>
 
