@@ -10,11 +10,11 @@ const Footer = () => {
           <div>
             <img 
               src={getAssetPath("logo.png")} 
-              alt="Always Fresh Supermarket Logo" 
+              alt="Arihant Food Logo" 
               className="h-12 w-auto object-contain mb-4 brightness-0 invert"
             />
             <p className="text-sm text-background/80 mb-4">
-              Your trusted source for fresh dairy products and vegetables. Quality delivered to your doorstep in 20 minutes.
+              Your trusted source for premium dairy products and fresh organic vegetables. Quality guaranteed with fast delivery across India.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-8 h-8 rounded-full bg-background/10 hover:bg-background/20 transition-colors flex items-center justify-center">
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>info@alwaysfresh.com</span>
+                <span>info@arihantfood.in</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1" />

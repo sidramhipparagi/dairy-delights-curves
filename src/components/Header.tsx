@@ -12,7 +12,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img 
               src={getAssetPath("logo.png")} 
-              alt="Always Fresh Supermarket Logo" 
+              alt="Arihant Food Logo" 
               className="h-16 w-auto object-contain"
             />
           </div>
